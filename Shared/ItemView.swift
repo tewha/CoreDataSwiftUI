@@ -21,6 +21,8 @@ struct ItemView: View {
             //
             //   CoreDataSwiftUI/Binding.swift:17: Fatal error: Unexpectedly found nil while unwrapping an Optional value
             //   2021-10-04 14:11:52.305020-0700 CoreDataSwiftUI[93670:2260260] CoreDataSwiftUI/Binding.swift:17: Fatal error: Unexpectedly found nil while unwrapping an Optional value
+            //
+            //   See also: https://github.com/tewha/CoreDataSwiftUI/blob/main/Shared/Binding.swift
 
         }
     }
