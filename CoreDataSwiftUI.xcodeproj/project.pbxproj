@@ -21,6 +21,10 @@
 		489D0CC3270BA36300205D15 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D0C95270BA36200205D15 /* Persistence.swift */; };
 		489D0CC4270BA36300205D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489D0C96270BA36300205D15 /* Assets.xcassets */; };
 		489D0CC5270BA36300205D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489D0C96270BA36300205D15 /* Assets.xcassets */; };
+		489D0CD5270BA42300205D15 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D0CD4270BA42300205D15 /* ItemView.swift */; };
+		489D0CD6270BA42300205D15 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D0CD4270BA42300205D15 /* ItemView.swift */; };
+		489D0CD8270BA47A00205D15 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D0CD7270BA47A00205D15 /* Binding.swift */; };
+		489D0CD9270BA47A00205D15 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D0CD7270BA47A00205D15 /* Binding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		489D0CB4270BA36300205D15 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		489D0CB8270BA36300205D15 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		489D0CBA270BA36300205D15 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		489D0CD4270BA42300205D15 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		489D0CD7270BA47A00205D15 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +109,13 @@
 		489D0C90270BA36200205D15 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				489D0CD7270BA47A00205D15 /* Binding.swift */,
 				489D0C93270BA36200205D15 /* CoreDataSwiftUIApp.swift */,
 				489D0C94270BA36200205D15 /* ContentView.swift */,
 				489D0C95270BA36200205D15 /* Persistence.swift */,
 				489D0C96270BA36300205D15 /* Assets.xcassets */,
 				489D0C91270BA36200205D15 /* CoreDataSwiftUI.xcdatamodeld */,
+				489D0CD4270BA42300205D15 /* ItemView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,8 +316,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				489D0CBE270BA36300205D15 /* CoreDataSwiftUIApp.swift in Sources */,
+				489D0CD8270BA47A00205D15 /* Binding.swift in Sources */,
 				489D0CC2270BA36300205D15 /* Persistence.swift in Sources */,
 				489D0CBC270BA36300205D15 /* CoreDataSwiftUI.xcdatamodeld in Sources */,
+				489D0CD5270BA42300205D15 /* ItemView.swift in Sources */,
 				489D0CC0270BA36300205D15 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +329,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				489D0CBF270BA36300205D15 /* CoreDataSwiftUIApp.swift in Sources */,
+				489D0CD9270BA47A00205D15 /* Binding.swift in Sources */,
 				489D0CC3270BA36300205D15 /* Persistence.swift in Sources */,
 				489D0CBD270BA36300205D15 /* CoreDataSwiftUI.xcdatamodeld in Sources */,
+				489D0CD6270BA42300205D15 /* ItemView.swift in Sources */,
 				489D0CC1270BA36300205D15 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
